@@ -26,8 +26,8 @@ class _MyAppState extends State<MyApp> {
         /* dark theme settings */
       ),
       themeMode: ThemeMode.dark,
-      /* ThemeMode.system to follow system theme, 
-         ThemeMode.light for light theme, 
+      /* ThemeMode.system to follow system theme,
+         ThemeMode.light for light theme,
          ThemeMode.dark for dark theme
       */
       debugShowCheckedModeBanner: false,
@@ -48,21 +48,21 @@ class _MyAppState extends State<MyApp> {
                       Row(
                         children: [
                           Card(
-                            color: Colors.black,
+                            color: Colors.grey,
                             child: Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text("option 1"),
                             ),
                           ),
                           Card(
-                            color: Colors.black,
+                            color: Colors.grey,
                             child: Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text("option 1"),
                             ),
                           ),
                           Card(
-                            color: Colors.black,
+                            color: Colors.grey,
                             child: Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text("option 1"),
@@ -129,7 +129,7 @@ class DummyBottonBar extends StatelessWidget {
         )),
         Card(
             child: SizedBox(
-          height: 32,
+          height: 16,
           width: 32,
         )),
         Card(
@@ -148,128 +148,129 @@ class DummyBottonBar extends StatelessWidget {
 }
 
 class Sidebardummy extends StatelessWidget {
-  const Sidebardummy({
+  Sidebardummy({
     Key? key,
   }) : super(key: key);
-
+  double width = 120;
+  double height = 300;
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
         child: Column(
       children: [
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
         Container(
-          width: 300,
-          height: 50,
+          width: width,
+          height: height,
           child: Center(child: Text('Card')),
         ),
       ],
